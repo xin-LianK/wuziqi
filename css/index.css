@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#canvasQ {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 100;
+  background-color: rgba(255, 255, 255, 0.06);
+}
+
+#canvasR {
+  position: absolute;
+  top: 60px;
+  right: 90px;
+  z-index: 100;
+  background-color: rgba(255, 255, 255, 0.06);
+}
+
+#canvasL {
+  position: absolute;
+  top: 60px;
+  left: 90px;
+  z-index: 100;
+  background-color: rgba(255, 255, 255, 0.06);
+}
+
+.mask-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  overflow: hidden;
+  background-image: url(../imgs/time1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  opacity: .9;
+}
+
+.mask-color {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 1;
+  overflow: hidden;
+  background-color: rgba(225, 225, 225, 0);
+}
+
+.btn {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 30px;
+  color: rgba(225, 225, 225, 0.9);
+  border: 1px dashed #1a6990;
+  z-index: 99;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.star {
+  right: 350px;
+  bottom: 50px;
+  background-image: url(../imgs/time4.jpg);
+}
+
+.stop {
+  right: 100px;
+  bottom: 100px;
+  background-image: url(../imgs/time1.jpg);
+}
+
+.p-vs-c {
+  right: 350px;
+  bottom: 150px;
+  background-image: url(../imgs/time6.jpg);
+}
+
+.res {
+  right: 100px;
+  bottom: 200px;
+  background-image: url(../imgs/time1.jpg);
+}
+
+.tuichu {
+  right: 350px;
+  bottom: 250px;
+  background-image: url(../imgs/time5.jpg);
+}
