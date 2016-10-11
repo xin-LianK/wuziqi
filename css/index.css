@@ -45,6 +45,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
+  -webkit-filter: blur(90px);
   opacity: .9;
 }
 

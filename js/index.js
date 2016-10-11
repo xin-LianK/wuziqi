@@ -3,8 +3,8 @@ $(function(){
 	var canvasR = $('#canvasR').get(0);
 	var canvasL = $('#canvasL').get(0);
 	var ctxQ = $('#canvasQ').get(0).getContext('2d');
-	var ctxR = $('#canvasR').get(0).getContext('2d');
-	var ctxL = $('#canvasL').get(0).getContext('2d');
+	// var ctxR = $('#canvasR').get(0).getContext('2d');
+	// var ctxL = $('#canvasL').get(0).getContext('2d');
 	var ROW = 15;
 	var width = canvasQ.width;
 	var off = width / ROW;
